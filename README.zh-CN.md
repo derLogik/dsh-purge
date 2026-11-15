@@ -2,18 +2,18 @@
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>
 
-<h1 align="center">⚔️ DeepSeek Harness 网络安全红队工具（dsh-purge）</h1>
+<h1 align="center">鈿旓笍 DeepSeek Harness 缃戠粶瀹夊叏绾㈤槦宸ュ叿锛坉sh-purge锛?/h1>
 
 <p align="center"><strong>Version 1.2.4</strong></p>
 
 <p align="center">
-  <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分</em>
+  <em>DeepSeek Harness 鐮寸敳锛氳鎵€鏈夋ā鍨嬮兘鑳界牬鐢诧紝涓嶅悓妯″瀷鍙崲涓嶅悓鎻愮ず璇嶏紱榛樿鎻愮ず璇嶉潰鍚戝浗妯°€屽皬鐮侀叡銆嶃€侸ailbreak for every model 鈥?swap prompts per model. 姹?Star 鏀惰棌 猸?濡傝浜屽紑锛岃鏌ョ湅缃插悕瑕佹眰閮ㄥ垎</em>
 </p>
 
 <p align="center">
   <a href="https://github.com/realMisakaMikoto/dsh-purge/stargazers"><img src="https://img.shields.io/github/stars/realMisakaMikoto/dsh-purge?logo=github&label=Stars" alt="GitHub stars"></a>
   <a href="https://github.com/realMisakaMikoto/dsh-purge/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-65a30d?style=flat" alt="MIT license"></a>
-  <a href="https://awesome-dsh-plugin.com"><img src="https://awesome-dsh-plugin.com/badge.svg" alt="awesome · DSH plugin"></a>
+  <a href="https://awesome-dsh-plugin.com"><img src="https://awesome-dsh-plugin.com/badge.svg" alt="awesome 路 DSH plugin"></a>
   <a href="https://deepseek.stream/plugins/dsh-purge"><img src="https://img.shields.io/badge/Hub-dsh--purge-1a73e8" alt="DeepSeek Harness Hub"></a>
   <a href="https://www.deepseek.com/harness/"><img src="https://img.shields.io/badge/dsh-0.2.x-blue" alt="DSH"></a>
   <br>
@@ -26,45 +26,45 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">涓枃</a>
 </p>
 
-> **这不是原作者的项目。** `realMisakaMikoto/dsh-purge` 是 [`YuJunZhiXue/dsh-purge`](https://github.com/YuJunZhiXue/dsh-purge)（MIT）的**社区兼容构建**，只为让插件在 **dsh 0.2.2-rc.1 / 0.2.1-rc.5 / 0.2.1-rc.3 / 0.2.1-rc.2 / 0.2.1-rc.1 / 0.2.0-rc.2** 上继续能用。原作者仓库是上游，设计、提示词与技能都归上游；本仓库只带 0.2.x 兼容补丁（差异见 [`FORK-NOTES.md`](FORK-NOTES.md)）。0.2.x 的兼容问题提到这里；功能需求、上游 bug 和 0.1.x 的旧版本发布仍归原仓库。
+> **杩欎笉鏄師浣滆€呯殑椤圭洰銆?* `realMisakaMikoto/dsh-purge` 鏄?[`YuJunZhiXue/dsh-purge`](https://github.com/YuJunZhiXue/dsh-purge)锛圡IT锛夌殑**绀惧尯鍏煎鏋勫缓**锛屽彧涓鸿鎻掍欢鍦?**dsh 0.2.2-rc.1 / 0.2.1-rc.5 / 0.2.1-rc.3 / 0.2.1-rc.2 / 0.2.1-rc.1 / 0.2.0-rc.2** 涓婄户缁兘鐢ㄣ€傚師浣滆€呬粨搴撴槸涓婃父锛岃璁°€佹彁绀鸿瘝涓庢妧鑳介兘褰掍笂娓革紱鏈粨搴撳彧甯?0.2.x 鍏煎琛ヤ竵锛堝樊寮傝 [`FORK-NOTES.md`](FORK-NOTES.md)锛夈€?.2.x 鐨勫吋瀹归棶棰樻彁鍒拌繖閲岋紱鍔熻兘闇€姹傘€佷笂娓?bug 鍜?0.1.x 鐨勬棫鐗堟湰鍙戝竷浠嶅綊鍘熶粨搴撱€?
 
-> **暂停更新**（上游作者原话；本仓库仍接收 0.2.x 兼容性修复）。作者因工作安排，近期没有稳定收入，项目维护暂时搁置：不再发版、暂不收 issue / PR，也不保证跟进新版 dsh。仓库仍可自用；赞助见下方。恢复维护时会在本 README 说明。
+> **鏆傚仠鏇存柊**锛堜笂娓镐綔鑰呭師璇濓紱鏈粨搴撲粛鎺ユ敹 0.2.x 鍏煎鎬т慨澶嶏級銆備綔鑰呭洜宸ヤ綔瀹夋帓锛岃繎鏈熸病鏈夌ǔ瀹氭敹鍏ワ紝椤圭洰缁存姢鏆傛椂鎼佺疆锛氫笉鍐嶅彂鐗堛€佹殏涓嶆敹 issue / PR锛屼篃涓嶄繚璇佽窡杩涙柊鐗?dsh銆備粨搴撲粛鍙嚜鐢紱璧炲姪瑙佷笅鏂广€傛仮澶嶇淮鎶ゆ椂浼氬湪鏈?README 璇存槑銆?
 
-> **官方 Web 和官方桌面端都支持。** 官方 `dsh web` 用 profile `web`；官方桌面 EXE（DeepSeek Harness **0.2.2-rc.1**、**0.2.1-rc.5**、**0.2.1-rc.3**、**0.2.1-rc.2**、**0.2.1-rc.1**、**0.2.0-rc.2**）用 profile `desktop`。两边分开安装、分开点「应用」。当前版本只适配 dsh 0.2；更早的 dsh 用对应的老版本插件。社区桌面端不维护。
+> **瀹樻柟 Web 鍜屽畼鏂规闈㈢閮芥敮鎸併€?* 瀹樻柟 `dsh web` 鐢?profile `web`锛涘畼鏂规闈?EXE锛圖eepSeek Harness **0.2.2-rc.1**銆?*0.2.1-rc.5**銆?*0.2.1-rc.3**銆?*0.2.1-rc.2**銆?*0.2.1-rc.1**銆?*0.2.0-rc.2**锛夌敤 profile `desktop`銆備袱杈瑰垎寮€瀹夎銆佸垎寮€鐐广€屽簲鐢ㄣ€嶃€傚綋鍓嶇増鏈彧閫傞厤 dsh 0.2锛涙洿鏃╃殑 dsh 鐢ㄥ搴旂殑鑰佺増鏈彃浠躲€傜ぞ鍖烘闈㈢涓嶇淮鎶ゃ€?
 >
-> 写进 profile 还不会改宿主。点会话标题旁的 **dsh-purge** → **清洗** → **应用**。成功会自动重启；补丁没打完不重启。重启后新开一轮对话，注入才进当前会话。
+> 鍐欒繘 profile 杩樹笉浼氭敼瀹夸富銆傜偣浼氳瘽鏍囬鏃佺殑 **dsh-purge** 鈫?**娓呮礂** 鈫?**搴旂敤**銆傛垚鍔熶細鑷姩閲嶅惎锛涜ˉ涓佹病鎵撳畬涓嶉噸鍚€傞噸鍚悗鏂板紑涓€杞璇濓紝娉ㄥ叆鎵嶈繘褰撳墠浼氳瘽銆?
 >
-> 需要 Node.js **>=22.13.0** 且 node:sqlite 可用。请从本社区仓库的 GitHub Release 安装；doctor 会检查运行环境。
+> 闇€瑕?Node.js **>=22.13.0** 涓?node:sqlite 鍙敤銆傝浠庢湰绀惧尯浠撳簱鐨?GitHub Release 瀹夎锛沝octor 浼氭鏌ヨ繍琛岀幆澧冦€?
 
-## 目录
+## 鐩綍
 
-- [赞助](#sponsor)
-- [介绍](#介绍)
-- [署名要求](#署名要求)
-- [违规商用公示](#违规商用公示)
-- [适配范围](#适配范围)
-- [安装](#安装)
-- [界面](#界面预览)
-- [使用](#使用)
-- [工作原理](#工作原理)
-- [还原](#还原)
-- [更新](#更新)
+- [璧炲姪](#sponsor)
+- [浠嬬粛](#浠嬬粛)
+- [缃插悕瑕佹眰](#缃插悕瑕佹眰)
+- [杩濊鍟嗙敤鍏ず](#杩濊鍟嗙敤鍏ず)
+- [閫傞厤鑼冨洿](#閫傞厤鑼冨洿)
+- [瀹夎](#瀹夎)
+- [鐣岄潰](#鐣岄潰棰勮)
+- [浣跨敤](#浣跨敤)
+- [宸ヤ綔鍘熺悊](#宸ヤ綔鍘熺悊)
+- [杩樺師](#杩樺師)
+- [鏇存柊](#鏇存柊)
 
 ---
 
 <a id="sponsor"></a>
 
-## ☕ 赞助
+## 鈽?璧炲姪
 
-这个项目要是帮到你了，欢迎打赏。我是讨口子，施舍点~
+杩欎釜椤圭洰瑕佹槸甯埌浣犱簡锛屾杩庢墦璧忋€傛垜鏄鍙ｅ瓙锛屾柦鑸嶇偣~
 
 
-| 资产          | 地址                                             |
+| 璧勪骇          | 鍦板潃                                             |
 | ----------- | ---------------------------------------------- |
-| USDT（TRC20） | `TV5ajPkRD8RH623Dx9mqvYZVNN8nPGRKid`           |
+| USDT锛圱RC20锛?| `TV5ajPkRD8RH623Dx9mqvYZVNN8nPGRKid`           |
 | Solana      | `6x16GhRgLVpKFFXaU1seKNdx2rypspSJTL4dbpt6Xpwk` |
 | Ethereum    | `0xB68BD60C0e8c519513B7DF9bB147696815423B3E`   |
 | Bitcoin     | `bc1qu70yxkrtwnymt8ryluz9x8y8hqzune5340npht`   |
@@ -72,86 +72,86 @@
 
 ---
 
-## 介绍
+## 浠嬬粛
 
-**dsh-purge** 是装在本机官方 [DeepSeek Harness](https://www.deepseek.com/harness/) 上的网络安全红队评测插件。官方 **Web**（`dsh web`）和官方 **桌面端**（EXE）都支持，两边分开装、分开应用。
+**dsh-purge** 鏄鍦ㄦ湰鏈哄畼鏂?[DeepSeek Harness](https://www.deepseek.com/harness/) 涓婄殑缃戠粶瀹夊叏绾㈤槦璇勬祴鎻掍欢銆傚畼鏂?**Web**锛坄dsh web`锛夊拰瀹樻柟 **妗岄潰绔?*锛圗XE锛夐兘鏀寔锛屼袱杈瑰垎寮€瑁呫€佸垎寮€搴旂敤銆?
 
-Harness 不只是把问题交给模型。它还会在运行时改提示词、审批门、沙箱和会话格式。只看「模型答不答」，会把宿主拦截误当成模型拒绝。这个插件在你自己的安装里把这两层分开，用来做受控评测，也用来看默认策略该不该收紧。
+Harness 涓嶅彧鏄妸闂浜ょ粰妯″瀷銆傚畠杩樹細鍦ㄨ繍琛屾椂鏀规彁绀鸿瘝銆佸鎵归棬銆佹矙绠卞拰浼氳瘽鏍煎紡銆傚彧鐪嬨€屾ā鍨嬬瓟涓嶇瓟銆嶏紝浼氭妸瀹夸富鎷︽埅璇綋鎴愭ā鍨嬫嫆缁濄€傝繖涓彃浠跺湪浣犺嚜宸辩殑瀹夎閲屾妸杩欎袱灞傚垎寮€锛岀敤鏉ュ仛鍙楁帶璇勬祴锛屼篃鐢ㄦ潵鐪嬮粯璁ょ瓥鐣ヨ涓嶈鏀剁揣銆?
 
 
-| 你会用到             | 它做什么                                            |
+| 浣犱細鐢ㄥ埌             | 瀹冨仛浠€涔?                                           |
 | ---------------- | ----------------------------------------------- |
-| **dsh-purge 侧栏** | 会话标题旁的按钮打开右侧栏。里面两页：清洗、演练台                       |
-| **清洗**           | 分组查看补丁，应用、还原、卸载；编辑提示词和多套规则                      |
-| **演练台**          | 正式版内置。授权后查看资产、技能和本机环境。只用于你有权管理的本机、离线靶标或已书面授权的演练 |
-| **宿主策略**         | 调整默认文案、权限策略和工具上限。官方能力保留，不另写一套身份                 |
-| **启动时**          | 自动再检查并应用。npm 升级盖掉 `node_modules` 之后不用手改文件       |
+| **dsh-purge 渚ф爮** | 浼氳瘽鏍囬鏃佺殑鎸夐挳鎵撳紑鍙充晶鏍忋€傞噷闈袱椤碉細娓呮礂銆佹紨缁冨彴                       |
+| **娓呮礂**           | 鍒嗙粍鏌ョ湅琛ヤ竵锛屽簲鐢ㄣ€佽繕鍘熴€佸嵏杞斤紱缂栬緫鎻愮ず璇嶅拰澶氬瑙勫垯                      |
+| **婕旂粌鍙?*          | 姝ｅ紡鐗堝唴缃€傛巿鏉冨悗鏌ョ湅璧勪骇銆佹妧鑳藉拰鏈満鐜銆傚彧鐢ㄤ簬浣犳湁鏉冪鐞嗙殑鏈満銆佺绾块澏鏍囨垨宸蹭功闈㈡巿鏉冪殑婕旂粌 |
+| **瀹夸富绛栫暐**         | 璋冩暣榛樿鏂囨銆佹潈闄愮瓥鐣ュ拰宸ュ叿涓婇檺銆傚畼鏂硅兘鍔涗繚鐣欙紝涓嶅彟鍐欎竴濂楄韩浠?                |
+| **鍚姩鏃?*          | 鑷姩鍐嶆鏌ュ苟搴旂敤銆俷pm 鍗囩骇鐩栨帀 `node_modules` 涔嬪悗涓嶇敤鎵嬫敼鏂囦欢       |
 
 
-不写死盘符。按 `$DSH_HOME`、dsh 启动器旁边的 `.dsh`，再退回 `~/.dsh`。不改 Harness 源码仓库，在 **dsh-purge** 的「清洗」里点「应用」才写入。身份来自插件里的加密提示词，也就是提示词框默认显示的那一份。不读取宿主磁盘上的提示词文件。
+涓嶅啓姝荤洏绗︺€傛寜 `$DSH_HOME`銆乨sh 鍚姩鍣ㄦ梺杈圭殑 `.dsh`锛屽啀閫€鍥?`~/.dsh`銆備笉鏀?Harness 婧愮爜浠撳簱锛屽湪 **dsh-purge** 鐨勩€屾竻娲椼€嶉噷鐐广€屽簲鐢ㄣ€嶆墠鍐欏叆銆傝韩浠芥潵鑷彃浠堕噷鐨勫姞瀵嗘彁绀鸿瘝锛屼篃灏辨槸鎻愮ず璇嶆榛樿鏄剧ず鐨勯偅涓€浠姐€備笉璇诲彇瀹夸富纾佺洏涓婄殑鎻愮ず璇嶆枃浠躲€?
 
-本插件只处理使用者本机已安装的官方 `@deepseek-ai` 包和本机配置。它不是公网扫描器，也不是针对第三方站点的攻击套件。仓库内不含木马、未授权渗透脚本或对外攻击载荷。
-
----
-
-## 📌 非盈利公益项目，严禁任何主体用于商业售卖、付费倒卖或黑灰产牟利，仅供技术参考。
-
-## 署名要求
-
-**借用本项目的名称、思路、代码或提示词，必须署名，并写明来源仓库：** [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)。
-
-不署名、隐瞒来源、改头换面据为己有，作者将依法追究责任。
+鏈彃浠跺彧澶勭悊浣跨敤鑰呮湰鏈哄凡瀹夎鐨勫畼鏂?`@deepseek-ai` 鍖呭拰鏈満閰嶇疆銆傚畠涓嶆槸鍏綉鎵弿鍣紝涔熶笉鏄拡瀵圭涓夋柟绔欑偣鐨勬敾鍑诲浠躲€備粨搴撳唴涓嶅惈鏈ㄩ┈銆佹湭鎺堟潈娓楅€忚剼鏈垨瀵瑰鏀诲嚮杞借嵎銆?
 
 ---
 
-## 违规商用公示
+## 馃搶 闈炵泩鍒╁叕鐩婇」鐩紝涓ョ浠讳綍涓讳綋鐢ㄤ簬鍟嗕笟鍞崠銆佷粯璐瑰€掑崠鎴栭粦鐏颁骇鐗熷埄锛屼粎渚涙妧鏈弬鑰冦€?
 
-抖音直播账号 **「老张的ai」**（直播间显示 **「老张AI讲堂」**）把本仓库当收费货卖：直播间问价、当场收钱，不署名，也不守上面的非盈利条款。作者人就在场，对方照收。
+## 缃插悕瑕佹眰
 
-本项目免费、非盈利。拿它卖课、卖插件、卖 token、倒卖，许可当场作废，作者保留追究权利。
+**鍊熺敤鏈」鐩殑鍚嶇О銆佹€濊矾銆佷唬鐮佹垨鎻愮ず璇嶏紝蹇呴』缃插悕锛屽苟鍐欐槑鏉ユ簮浠撳簱锛?* [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)銆?
 
-2026-10-12 直播记录：
+涓嶇讲鍚嶃€侀殣鐬掓潵婧愩€佹敼澶存崲闈㈡嵁涓哄繁鏈夛紝浣滆€呭皢渚濇硶杩界┒璐ｄ换銆?
+
+---
+
+## 杩濊鍟嗙敤鍏ず
+
+鎶栭煶鐩存挱璐﹀彿 **銆岃€佸紶鐨刟i銆?*锛堢洿鎾棿鏄剧ず **銆岃€佸紶AI璁插爞銆?*锛夋妸鏈粨搴撳綋鏀惰垂璐у崠锛氱洿鎾棿闂环銆佸綋鍦烘敹閽憋紝涓嶇讲鍚嶏紝涔熶笉瀹堜笂闈㈢殑闈炵泩鍒╂潯娆俱€備綔鑰呬汉灏卞湪鍦猴紝瀵规柟鐓ф敹銆?
+
+鏈」鐩厤璐广€侀潪鐩堝埄銆傛嬁瀹冨崠璇俱€佸崠鎻掍欢銆佸崠 token銆佸€掑崠锛岃鍙綋鍦轰綔搴燂紝浣滆€呬繚鐣欒拷绌舵潈鍒┿€?
+
+2026-10-12 鐩存挱璁板綍锛?
 
 <p align="center">
-  <img src="docs/notice/laozhang-live-1.jpg" width="360" alt="老张的ai 直播问价">
-  <img src="docs/notice/laozhang-live-2.jpg" width="360" alt="老张的ai 直播收钱">
+  <img src="docs/notice/laozhang-live-1.jpg" width="360" alt="鑰佸紶鐨刟i 鐩存挱闂环">
+  <img src="docs/notice/laozhang-live-2.jpg" width="360" alt="鑰佸紶鐨刟i 鐩存挱鏀堕挶">
 </p>
 
-对方微信名 **「老张的ai科技」**，直播间观众榜同号。被问到是不是本仓库开发者时，自称「老厉害了」；作者当场表示要投诉。
+瀵规柟寰俊鍚?**銆岃€佸紶鐨刟i绉戞妧銆?*锛岀洿鎾棿瑙備紬姒滃悓鍙枫€傝闂埌鏄笉鏄湰浠撳簱寮€鍙戣€呮椂锛岃嚜绉般€岃€佸帀瀹充簡銆嶏紱浣滆€呭綋鍦鸿〃绀鸿鎶曡瘔銆?
 
 <p align="center">
-  <img src="docs/notice/laozhang-wechat-1.jpg" width="420" alt="老张的ai科技 微信自称开发者">
+  <img src="docs/notice/laozhang-wechat-1.jpg" width="420" alt="鑰佸紶鐨刟i绉戞妧 寰俊鑷О寮€鍙戣€?>
 </p>
 
 ---
 
-### ⚠️ 严正法律免责与合规使用声明
+### 鈿狅笍 涓ユ娉曞緥鍏嶈矗涓庡悎瑙勪娇鐢ㄥ０鏄?
 
 
 
-**免责声明：** 本项目为非营利开源项目，遵守国家法律法规及所在平台的相关规范，仅供学习与研究使用。不得将本项目用于任何违法违规用途；由此产生的后果由使用者自行承担。
+**鍏嶈矗澹版槑锛?* 鏈」鐩负闈炶惀鍒╁紑婧愰」鐩紝閬靛畧鍥藉娉曞緥娉曡鍙婃墍鍦ㄥ钩鍙扮殑鐩稿叧瑙勮寖锛屼粎渚涘涔犱笌鐮旂┒浣跨敤銆備笉寰楀皢鏈」鐩敤浜庝换浣曡繚娉曡繚瑙勭敤閫旓紱鐢辨浜х敓鐨勫悗鏋滅敱浣跨敤鑰呰嚜琛屾壙鎷呫€?
 
-**【零容忍严正申明】**：本项目坚决反对并严禁任何形式的违法犯罪行为！本项目开发者绝不支持、不鼓励、不协助任何未授权网络攻击、漏洞利用、数据窃取、非法侵入计算机信息系统或生成违法违禁内容的活动。**任何将本项目用于违法犯罪的行为，均与开发者无关，由行为人依法独立承担全部法律责任。**
+**銆愰浂瀹瑰繊涓ユ鐢虫槑銆?*锛氭湰椤圭洰鍧氬喅鍙嶅骞朵弗绂佷换浣曞舰寮忕殑杩濇硶鐘姜琛屼负锛佹湰椤圭洰寮€鍙戣€呯粷涓嶆敮鎸併€佷笉榧撳姳銆佷笉鍗忓姪浠讳綍鏈巿鏉冪綉缁滄敾鍑汇€佹紡娲炲埄鐢ㄣ€佹暟鎹獌鍙栥€侀潪娉曚镜鍏ヨ绠楁満淇℃伅绯荤粺鎴栫敓鎴愯繚娉曡繚绂佸唴瀹圭殑娲诲姩銆?*浠讳綍灏嗘湰椤圭洰鐢ㄤ簬杩濇硶鐘姜鐨勮涓猴紝鍧囦笌寮€鍙戣€呮棤鍏筹紝鐢辫涓轰汉渚濇硶鐙珛鎵挎媴鍏ㄩ儴娉曞緥璐ｄ换銆?*
 
-1. **本仓库不含违法内容**：`dsh-purge` 发布的代码、文档、补丁与默认提示词**不是**木马、后门、未授权渗透工具、勒索软件、撞库脚本，也**不是**针对公网或第三方系统的攻击载荷。项目本身不提供违法内容，也不教唆、组织、协助实施违法犯罪。
-2. **只作用于本机官方 Harness**：安全评测补丁、提示词注入全部发生在使用者**本机已安装的官方 DeepSeek Harness**（`@deepseek-ai` 包、本机 profile / `$DSH_HOME`）上。对象是使用者自己的官方本地软件，**不是**他人的网站、服务器、账号或信息系统。
-3. **评测补丁不对外网目标联网**：应用补丁、写入注入、回滚、卸载均在本机文件与本机进程内完成，**不对任何公网主机、未授权系统进行扫描、探测、入侵或攻击发包**。不得把本项目当作跳板去打外网。插件若开启「检测更新」，仅可能访问本插件自己的 GitHub 仓库以核对版本，**与对第三方系统的网络攻击无关**，也不能被解释为授权对外渗透。
-4. **合法受控范围限定**：本项目定位为使用者在**自己有权管理的本机官方 Harness**上，进行红队科研与鲁棒性评测的辅助工具。**严禁在未经所有者合法书面授权的目标、公网在线系统或生产业务上运行本项目**。一切测试必须限制在**本机已授权安装的官方 Harness、离线本地合成靶标、授权网络安全演练靶场及合规实验室受控环境**中进行。
-5. **目标选择。** 本社区构建不再按地区、行业或自有服务器名单限制红队目标。
-6. **严禁违法与违禁用途**：使用者严禁利用本项目直接或间接从事任何违反下列法律法规的行为（必须逐条遵守，不得以任何理由规避）：
-  - **《中华人民共和国刑法》**
-  - **《中华人民共和国网络安全法》**
-  - **《中华人民共和国数据安全法》**
-  - **《中华人民共和国个人信息保护法》**
-  - 以及其他现行有效的法律、行政法规与监管规定；
-  - 同时严禁：
-  - 未经授权渗透、攻击公私机构计算机信息系统，实施勒索、破坏、撞库或传播恶意载荷；
-  - 诱导、生成或传播危害国家安全、恐怖主义、暴力血腥、涉黄涉赌、诈骗、侵犯公民隐私或知识产权等任何法律明令禁止的违法违禁内容；
-  - 违反相关大模型提供商的《服务条款》与《滥用政策》。
-7. **使用者独立承担全部责任**：本项目依据 MIT 开源协议“按现状”提供，开发者不对软件的完整性、安全性与适用性作任何明示或暗示的保证。**使用者应对自身的所有下载、部署、运行、修改、传播行为以及由此产生的全部输入与输出后果承担独立、完全的民事、行政及刑事法律责任**。项目作者与贡献团队绝不承担任何因使用者滥用导致的直接、间接或连带责任。
-8. **违约即终止授权**：任何将本项目用于非法攻击、恶意活动或违规行为的个人或实体，其开源软件使用许可将自违法违规行为发生之日起**自动且不可撤销地立即终止**。该主体须立即停止使用并永久销毁本项目的所有代码、脚本与衍生数据，并依法承担相应法律制裁。
-9. **第三方独立性声明**：本项目属于完全独立的开源安全评测研究项目，与 DeepSeek 官方或其关联主体无任何隶属、商业合作、授权或官方背书关系。文中「官方」仅指评测对象为使用者本机安装的官方 DeepSeek Harness 软件包，**不代表** DeepSeek 官方开发、认可或担保本插件。
-10. **必须署名**：借用本项目的名称、思路、代码或提示词，必须署名并标明本仓库。不署名将依法追究责任。详见 [署名要求](#署名要求)。
+1. **鏈粨搴撲笉鍚繚娉曞唴瀹?*锛歚dsh-purge` 鍙戝竷鐨勪唬鐮併€佹枃妗ｃ€佽ˉ涓佷笌榛樿鎻愮ず璇?*涓嶆槸**鏈ㄩ┈銆佸悗闂ㄣ€佹湭鎺堟潈娓楅€忓伐鍏枫€佸嫆绱㈣蒋浠躲€佹挒搴撹剼鏈紝涔?*涓嶆槸**閽堝鍏綉鎴栫涓夋柟绯荤粺鐨勬敾鍑昏浇鑽枫€傞」鐩湰韬笉鎻愪緵杩濇硶鍐呭锛屼篃涓嶆暀鍞嗐€佺粍缁囥€佸崗鍔╁疄鏂借繚娉曠姱缃€?
+2. **鍙綔鐢ㄤ簬鏈満瀹樻柟 Harness**锛氬畨鍏ㄨ瘎娴嬭ˉ涓併€佹彁绀鸿瘝娉ㄥ叆鍏ㄩ儴鍙戠敓鍦ㄤ娇鐢ㄨ€?*鏈満宸插畨瑁呯殑瀹樻柟 DeepSeek Harness**锛坄@deepseek-ai` 鍖呫€佹湰鏈?profile / `$DSH_HOME`锛変笂銆傚璞℃槸浣跨敤鑰呰嚜宸辩殑瀹樻柟鏈湴杞欢锛?*涓嶆槸**浠栦汉鐨勭綉绔欍€佹湇鍔″櫒銆佽处鍙锋垨淇℃伅绯荤粺銆?
+3. **璇勬祴琛ヤ竵涓嶅澶栫綉鐩爣鑱旂綉**锛氬簲鐢ㄨˉ涓併€佸啓鍏ユ敞鍏ャ€佸洖婊氥€佸嵏杞藉潎鍦ㄦ湰鏈烘枃浠朵笌鏈満杩涚▼鍐呭畬鎴愶紝**涓嶅浠讳綍鍏綉涓绘満銆佹湭鎺堟潈绯荤粺杩涜鎵弿銆佹帰娴嬨€佸叆渚垫垨鏀诲嚮鍙戝寘**銆備笉寰楁妸鏈」鐩綋浣滆烦鏉垮幓鎵撳缃戙€傛彃浠惰嫢寮€鍚€屾娴嬫洿鏂般€嶏紝浠呭彲鑳借闂湰鎻掍欢鑷繁鐨?GitHub 浠撳簱浠ユ牳瀵圭増鏈紝**涓庡绗笁鏂圭郴缁熺殑缃戠粶鏀诲嚮鏃犲叧**锛屼篃涓嶈兘琚В閲婁负鎺堟潈瀵瑰娓楅€忋€?
+4. **鍚堟硶鍙楁帶鑼冨洿闄愬畾**锛氭湰椤圭洰瀹氫綅涓轰娇鐢ㄨ€呭湪**鑷繁鏈夋潈绠＄悊鐨勬湰鏈哄畼鏂?Harness**涓婏紝杩涜绾㈤槦绉戠爺涓庨瞾妫掓€ц瘎娴嬬殑杈呭姪宸ュ叿銆?*涓ョ鍦ㄦ湭缁忔墍鏈夎€呭悎娉曚功闈㈡巿鏉冪殑鐩爣銆佸叕缃戝湪绾跨郴缁熸垨鐢熶骇涓氬姟涓婅繍琛屾湰椤圭洰**銆備竴鍒囨祴璇曞繀椤婚檺鍒跺湪**鏈満宸叉巿鏉冨畨瑁呯殑瀹樻柟 Harness銆佺绾挎湰鍦板悎鎴愰澏鏍囥€佹巿鏉冪綉缁滃畨鍏ㄦ紨缁冮澏鍦哄強鍚堣瀹為獙瀹ゅ彈鎺х幆澧?*涓繘琛屻€?
+5. **鐩爣閫夋嫨銆?* 鏈ぞ鍖烘瀯寤轰笉鍐嶆寜鍦板尯銆佽涓氭垨鑷湁鏈嶅姟鍣ㄥ悕鍗曢檺鍒剁孩闃熺洰鏍囥€?
+6. **涓ョ杩濇硶涓庤繚绂佺敤閫?*锛氫娇鐢ㄨ€呬弗绂佸埄鐢ㄦ湰椤圭洰鐩存帴鎴栭棿鎺ヤ粠浜嬩换浣曡繚鍙嶄笅鍒楁硶寰嬫硶瑙勭殑琛屼负锛堝繀椤婚€愭潯閬靛畧锛屼笉寰椾互浠讳綍鐞嗙敱瑙勯伩锛夛細
+  - **銆婁腑鍗庝汉姘戝叡鍜屽浗鍒戞硶銆?*
+  - **銆婁腑鍗庝汉姘戝叡鍜屽浗缃戠粶瀹夊叏娉曘€?*
+  - **銆婁腑鍗庝汉姘戝叡鍜屽浗鏁版嵁瀹夊叏娉曘€?*
+  - **銆婁腑鍗庝汉姘戝叡鍜屽浗涓汉淇℃伅淇濇姢娉曘€?*
+  - 浠ュ強鍏朵粬鐜拌鏈夋晥鐨勬硶寰嬨€佽鏀挎硶瑙勪笌鐩戠瑙勫畾锛?
+  - 鍚屾椂涓ョ锛?
+  - 鏈粡鎺堟潈娓楅€忋€佹敾鍑诲叕绉佹満鏋勮绠楁満淇℃伅绯荤粺锛屽疄鏂藉嫆绱€佺牬鍧忋€佹挒搴撴垨浼犳挱鎭舵剰杞借嵎锛?
+  - 璇卞銆佺敓鎴愭垨浼犳挱鍗卞鍥藉瀹夊叏銆佹亹鎬栦富涔夈€佹毚鍔涜鑵ャ€佹秹榛勬秹璧屻€佽瘓楠椼€佷镜鐘叕姘戦殣绉佹垨鐭ヨ瘑浜ф潈绛変换浣曟硶寰嬫槑浠ょ姝㈢殑杩濇硶杩濈鍐呭锛?
+  - 杩濆弽鐩稿叧澶фā鍨嬫彁渚涘晢鐨勩€婃湇鍔℃潯娆俱€嬩笌銆婃互鐢ㄦ斂绛栥€嬨€?
+7. **浣跨敤鑰呯嫭绔嬫壙鎷呭叏閮ㄨ矗浠?*锛氭湰椤圭洰渚濇嵁 MIT 寮€婧愬崗璁€滄寜鐜扮姸鈥濇彁渚涳紝寮€鍙戣€呬笉瀵硅蒋浠剁殑瀹屾暣鎬с€佸畨鍏ㄦ€т笌閫傜敤鎬т綔浠讳綍鏄庣ず鎴栨殫绀虹殑淇濊瘉銆?*浣跨敤鑰呭簲瀵硅嚜韬殑鎵€鏈変笅杞姐€侀儴缃层€佽繍琛屻€佷慨鏀广€佷紶鎾涓轰互鍙婄敱姝や骇鐢熺殑鍏ㄩ儴杈撳叆涓庤緭鍑哄悗鏋滄壙鎷呯嫭绔嬨€佸畬鍏ㄧ殑姘戜簨銆佽鏀垮強鍒戜簨娉曞緥璐ｄ换**銆傞」鐩綔鑰呬笌璐＄尞鍥㈤槦缁濅笉鎵挎媴浠讳綍鍥犱娇鐢ㄨ€呮互鐢ㄥ鑷寸殑鐩存帴銆侀棿鎺ユ垨杩炲甫璐ｄ换銆?
+8. **杩濈害鍗崇粓姝㈡巿鏉?*锛氫换浣曞皢鏈」鐩敤浜庨潪娉曟敾鍑汇€佹伓鎰忔椿鍔ㄦ垨杩濊琛屼负鐨勪釜浜烘垨瀹炰綋锛屽叾寮€婧愯蒋浠朵娇鐢ㄨ鍙皢鑷繚娉曡繚瑙勮涓哄彂鐢熶箣鏃ヨ捣**鑷姩涓斾笉鍙挙閿€鍦扮珛鍗崇粓姝?*銆傝涓讳綋椤荤珛鍗冲仠姝娇鐢ㄥ苟姘镐箙閿€姣佹湰椤圭洰鐨勬墍鏈変唬鐮併€佽剼鏈笌琛嶇敓鏁版嵁锛屽苟渚濇硶鎵挎媴鐩稿簲娉曞緥鍒惰銆?
+9. **绗笁鏂圭嫭绔嬫€у０鏄?*锛氭湰椤圭洰灞炰簬瀹屽叏鐙珛鐨勫紑婧愬畨鍏ㄨ瘎娴嬬爺绌堕」鐩紝涓?DeepSeek 瀹樻柟鎴栧叾鍏宠仈涓讳綋鏃犱换浣曢毝灞炪€佸晢涓氬悎浣溿€佹巿鏉冩垨瀹樻柟鑳屼功鍏崇郴銆傛枃涓€屽畼鏂广€嶄粎鎸囪瘎娴嬪璞′负浣跨敤鑰呮湰鏈哄畨瑁呯殑瀹樻柟 DeepSeek Harness 杞欢鍖咃紝**涓嶄唬琛?* DeepSeek 瀹樻柟寮€鍙戙€佽鍙垨鎷呬繚鏈彃浠躲€?
+10. **蹇呴』缃插悕**锛氬€熺敤鏈」鐩殑鍚嶇О銆佹€濊矾銆佷唬鐮佹垨鎻愮ず璇嶏紝蹇呴』缃插悕骞舵爣鏄庢湰浠撳簱銆備笉缃插悕灏嗕緷娉曡拷绌惰矗浠汇€傝瑙?[缃插悕瑕佹眰](#缃插悕瑕佹眰)銆?
 
 
 
@@ -159,87 +159,87 @@ Harness 不只是把问题交给模型。它还会在运行时改提示词、审
 
 ---
 
-## 适配范围
+## 閫傞厤鑼冨洿
 
-最新版只支持 **dsh 0.2**，不要拿它去打 0.1.x。
+鏈€鏂扮増鍙敮鎸?**dsh 0.2**锛屼笉瑕佹嬁瀹冨幓鎵?0.1.x銆?
 
-- **dsh 0.2.2**（官方桌面 **0.2.2-rc.1** / 官方 `dsh web`）：用 **1.2.4** 及以上。已在 **0.2.2-rc.1** 实测：85 条补丁，桌面宿主 75 applied / 0 pending（其余 10 条为 `na`，按设计不适用），`app.asar` 已解包并改名让位。本页命令装的就是这一档。
-- **dsh 0.2.1**（官方桌面 **0.2.1-rc.5** / **0.2.1-rc.3** / **0.2.1-rc.2** / **0.2.1-rc.1** / 官方 `dsh web`）：用 **1.2.4** 及以上 —— 同一份包保留 0.2.1 的 pattern 集，一个包覆盖两档。
-- **dsh 0.2.0**（官方桌面 **0.2.0-rc.2**）：用 **1.1.40** 及以上 — 同一套补丁；`#40` 目前见过的 complete 收尾块形状都命得中。
-- **dsh 0.1.7**（含 rc.1 / rc.2）：用 **1.1.39** 及更早 —— 在 [上游 Releases](https://github.com/YuJunZhiXue/dsh-purge/releases) 里选对应标签。
+- **dsh 0.2.2**锛堝畼鏂规闈?**0.2.2-rc.1** / 瀹樻柟 `dsh web`锛夛細鐢?**1.2.4** 鍙婁互涓娿€傚凡鍦?**0.2.2-rc.1** 瀹炴祴锛?5 鏉¤ˉ涓侊紝妗岄潰瀹夸富 75 applied / 0 pending锛堝叾浣?10 鏉′负 `na`锛屾寜璁捐涓嶉€傜敤锛夛紝`app.asar` 宸茶В鍖呭苟鏀瑰悕璁╀綅銆傛湰椤靛懡浠よ鐨勫氨鏄繖涓€妗ｃ€?
+- **dsh 0.2.1**锛堝畼鏂规闈?**0.2.1-rc.5** / **0.2.1-rc.3** / **0.2.1-rc.2** / **0.2.1-rc.1** / 瀹樻柟 `dsh web`锛夛細鐢?**1.2.4** 鍙婁互涓?鈥斺€?鍚屼竴浠藉寘淇濈暀 0.2.1 鐨?pattern 闆嗭紝涓€涓寘瑕嗙洊涓ゆ。銆?
+- **dsh 0.2.0**锛堝畼鏂规闈?**0.2.0-rc.2**锛夛細鐢?**1.1.40** 鍙婁互涓?鈥?鍚屼竴濂楄ˉ涓侊紱`#40` 鐩墠瑙佽繃鐨?complete 鏀跺熬鍧楀舰鐘堕兘鍛藉緱涓€?
+- **dsh 0.1.7**锛堝惈 rc.1 / rc.2锛夛細鐢?**1.1.39** 鍙婃洿鏃?鈥斺€?鍦?[涓婃父 Releases](https://github.com/YuJunZhiXue/dsh-purge/releases) 閲岄€夊搴旀爣绛俱€?
 
-对不上的补丁会显示待应用或跳过，不会乱改文件。
+瀵逛笉涓婄殑琛ヤ竵浼氭樉绀哄緟搴旂敤鎴栬烦杩囷紝涓嶄細涔辨敼鏂囦欢銆?
 
 ---
 
-## 安装
+## 瀹夎
 
-现在只维护官方 `dsh web` 和官方桌面 EXE，**两边都要装、分开应用**。Web 的包进不了桌面端，桌面端的包也进不了 Web。
+鐜板湪鍙淮鎶ゅ畼鏂?`dsh web` 鍜屽畼鏂规闈?EXE锛?*涓よ竟閮借瑁呫€佸垎寮€搴旂敤**銆俉eb 鐨勫寘杩涗笉浜嗘闈㈢锛屾闈㈢鐨勫寘涔熻繘涓嶄簡 Web銆?
 
-**Web（官方 `dsh web`）**
+**Web锛堝畼鏂?`dsh web`锛?*
 
 ```sh
 dsh plugin --profile web add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz
 ```
 
-**桌面端（官方 EXE）**
+**妗岄潰绔紙瀹樻柟 EXE锛?*
 
 ```sh
 dsh plugin --profile desktop add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz
 ```
 
-两条命令装的是**本仓库这个 fork**，不是同名上游 npm 包：目标直接写 tarball，才带上 0.2.x 兼容补丁。当前目录已经是本仓库时，把同一个 `--profile` 换成 `add .`。`dsh` 不在 PATH 时走 [手动安装](#manual)。
+涓ゆ潯鍛戒护瑁呯殑鏄?*鏈粨搴撹繖涓?fork**锛屼笉鏄悓鍚嶄笂娓?npm 鍖咃細鐩爣鐩存帴鍐?tarball锛屾墠甯︿笂 0.2.x 鍏煎琛ヤ竵銆傚綋鍓嶇洰褰曞凡缁忔槸鏈粨搴撴椂锛屾妸鍚屼竴涓?`--profile` 鎹㈡垚 `add .`銆俙dsh` 涓嶅湪 PATH 鏃惰蛋 [鎵嬪姩瀹夎](#manual)銆?
 
-[插件市场](https://dsh-plugin.org/plugins/yujunzhixue/dsh-purge) 的条目属于上游，装的是上游 npm 包 —— 那份不带本 fork 的 0.2.x 修复。要用这份，走上表的 tarball 命令，或用下面的按钮（已指向本仓库）。
+[鎻掍欢甯傚満](https://dsh-plugin.org/plugins/yujunzhixue/dsh-purge) 鐨勬潯鐩睘浜庝笂娓革紝瑁呯殑鏄笂娓?npm 鍖?鈥斺€?閭ｄ唤涓嶅甫鏈?fork 鐨?0.2.x 淇銆傝鐢ㄨ繖浠斤紝璧颁笂琛ㄧ殑 tarball 鍛戒护锛屾垨鐢ㄤ笅闈㈢殑鎸夐挳锛堝凡鎸囧悜鏈粨搴擄級銆?
 
-桌面客户端也可以点按钮（`dsh://` 唤起）：
+妗岄潰瀹㈡埛绔篃鍙互鐐规寜閽紙`dsh://` 鍞よ捣锛夛細
 
 <p align="center">
-  <a href="dsh://plugin/install?id=dsh-purge&name=dsh-purge&version=1.2.4&repo=realMisakaMikoto%2Fdsh-purge&permissions=%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%B3%A8%E5%85%A5%2C%E6%9C%AC%E6%9C%BA%E8%A1%A5%E4%B8%81%2C%E8%AE%BE%E7%BD%AE%E9%A1%B5&downloadUrl=https%3A%2F%2Fgithub.com%2FrealMisakaMikoto%2Fdsh-purge%2Freleases%2Fdownload%2Fv1.2.4%2Fdsh-purge-1.2.4.tar.gz"><strong>唤起客户端一键安装</strong></a>
+  <a href="dsh://plugin/install?id=dsh-purge&name=dsh-purge&version=1.2.4&repo=realMisakaMikoto%2Fdsh-purge&permissions=%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%B3%A8%E5%85%A5%2C%E6%9C%AC%E6%9C%BA%E8%A1%A5%E4%B8%81%2C%E8%AE%BE%E7%BD%AE%E9%A1%B5&downloadUrl=https%3A%2F%2Fgithub.com%2FrealMisakaMikoto%2Fdsh-purge%2Freleases%2Fdownload%2Fv1.2.4%2Fdsh-purge-1.2.4.tar.gz"><strong>鍞よ捣瀹㈡埛绔竴閿畨瑁?/strong></a>
 </p>
 
-### 装完都要做这三步
+### 瑁呭畬閮借鍋氳繖涓夋
 
-只把插件写进 profile **还不会**改 `@deepseek-ai`。
+鍙妸鎻掍欢鍐欒繘 profile **杩樹笉浼?*鏀?`@deepseek-ai`銆?
 
-1. **退出并重新打开**刚装的那个宿主：Web 关掉 `dsh web` 再开；桌面端退出托盘再打开对应 exe。
-2. 在**这个宿主**点会话标题旁的 **dsh-purge**，在 **清洗** 页点 **「应用」**。宿主的设置页里没有这个条目。
-3. 「应用」成功后会自动重启一次，让补丁进入当前进程。没做完不会重启。
+1. **閫€鍑哄苟閲嶆柊鎵撳紑**鍒氳鐨勯偅涓涓伙細Web 鍏虫帀 `dsh web` 鍐嶅紑锛涙闈㈢閫€鍑烘墭鐩樺啀鎵撳紑瀵瑰簲 exe銆?
+2. 鍦?*杩欎釜瀹夸富**鐐逛細璇濇爣棰樻梺鐨?**dsh-purge**锛屽湪 **娓呮礂** 椤电偣 **銆屽簲鐢ㄣ€?*銆傚涓荤殑璁剧疆椤甸噷娌℃湁杩欎釜鏉＄洰銆?
+3. 銆屽簲鐢ㄣ€嶆垚鍔熷悗浼氳嚜鍔ㄩ噸鍚竴娆★紝璁╄ˉ涓佽繘鍏ュ綋鍓嶈繘绋嬨€傛病鍋氬畬涓嶄細閲嶅惎銆?
 
-Web 的控件只动 Web，桌面端的只动桌面应用。不要在一个宿主里点另一个宿主的应用。
+Web 鐨勬帶浠跺彧鍔?Web锛屾闈㈢鐨勫彧鍔ㄦ闈㈠簲鐢ㄣ€備笉瑕佸湪涓€涓涓婚噷鐐瑰彟涓€涓涓荤殑搴旂敤銆?
 
-### 怎样算装上了
+### 鎬庢牱绠楄涓婁簡
 
-- 会话标题旁有 **dsh-purge**，点开后在「清洗」里能点「应用」。
-- 聊天里 `/purge status` 能打出 `DSH_HOME` 和补丁列表，路径应是你正在用的那一份。
-- 没装的可选包（例如梁神）显示跳过，不挡住应用完成。
+- 浼氳瘽鏍囬鏃佹湁 **dsh-purge**锛岀偣寮€鍚庡湪銆屾竻娲椼€嶉噷鑳界偣銆屽簲鐢ㄣ€嶃€?
+- 鑱婂ぉ閲?`/purge status` 鑳芥墦鍑?`DSH_HOME` 鍜岃ˉ涓佸垪琛紝璺緞搴旀槸浣犳鍦ㄧ敤鐨勯偅涓€浠姐€?
+- 娌¤鐨勫彲閫夊寘锛堜緥濡傛绁烇級鏄剧ず璺宠繃锛屼笉鎸′綇搴旂敤瀹屾垚銆?
 
-### 交给助手安装
+### 浜ょ粰鍔╂墜瀹夎
 
-把下面整段发给本机助手。它只执行安装命令：不要全盘搜索、不要改其它文件、不要代点「应用」、不要重启。
+鎶婁笅闈㈡暣娈靛彂缁欐湰鏈哄姪鎵嬨€傚畠鍙墽琛屽畨瑁呭懡浠わ細涓嶈鍏ㄧ洏鎼滅储銆佷笉瑕佹敼鍏跺畠鏂囦欢銆佷笉瑕佷唬鐐广€屽簲鐢ㄣ€嶃€佷笉瑕侀噸鍚€?
 
 <details>
-<summary><strong>给 AI 助手（只安装）</strong></summary>
+<summary><strong>缁?AI 鍔╂墜锛堝彧瀹夎锛?/strong></summary>
 
 <!-- AI-AGENT-START -->
 
-安装 DeepSeek Harness 插件 `dsh-purge`，Web 和官方桌面端都要装。不要全盘搜索，不要读或改其它文件，不要应用设置，也不要重启应用。
+瀹夎 DeepSeek Harness 鎻掍欢 `dsh-purge`锛學eb 鍜屽畼鏂规闈㈢閮借瑁呫€備笉瑕佸叏鐩樻悳绱紝涓嶈璇绘垨鏀瑰叾瀹冩枃浠讹紝涓嶈搴旂敤璁剧疆锛屼篃涓嶈閲嶅惎搴旂敤銆?
 
-`dsh` 不在 PATH 就告诉用户后停止。下面两条用的是本仓库 fork 的 tarball，不是上游 npm 包名。当前目录已是本仓库时，把两条里的 URL 都换成 `.`。某个 profile 不存在就跳过那一条，另一条照装。
+`dsh` 涓嶅湪 PATH 灏卞憡璇夌敤鎴峰悗鍋滄銆備笅闈袱鏉＄敤鐨勬槸鏈粨搴?fork 鐨?tarball锛屼笉鏄笂娓?npm 鍖呭悕銆傚綋鍓嶇洰褰曞凡鏄湰浠撳簱鏃讹紝鎶婁袱鏉￠噷鐨?URL 閮芥崲鎴?`.`銆傛煇涓?profile 涓嶅瓨鍦ㄥ氨璺宠繃閭ｄ竴鏉★紝鍙︿竴鏉＄収瑁呫€?
 
-**Web 端（官方 `dsh web`）**
+**Web 绔紙瀹樻柟 `dsh web`锛?*
 
 ```sh
 dsh plugin --profile web add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz
 ```
 
-**桌面端（官方 EXE）**
+**妗岄潰绔紙瀹樻柟 EXE锛?*
 
 ```sh
 dsh plugin --profile desktop add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz
 ```
 
-命令结束后，提醒用户：Web 完全退出并重启 `dsh web`；桌面端退出托盘再打开 EXE。各自点会话标题旁的 **dsh-purge**，在「清洗」里点「应用」。然后停止。
+鍛戒护缁撴潫鍚庯紝鎻愰啋鐢ㄦ埛锛歐eb 瀹屽叏閫€鍑哄苟閲嶅惎 `dsh web`锛涙闈㈢閫€鍑烘墭鐩樺啀鎵撳紑 EXE銆傚悇鑷偣浼氳瘽鏍囬鏃佺殑 **dsh-purge**锛屽湪銆屾竻娲椼€嶉噷鐐广€屽簲鐢ㄣ€嶃€傜劧鍚庡仠姝€?
 
 <!-- AI-AGENT-END -->
 
@@ -247,16 +247,16 @@ dsh plugin --profile desktop add https://github.com/realMisakaMikoto/dsh-purge/r
 
 <a id="manual"></a>
 
-### 手动安装
+### 鎵嬪姩瀹夎
 
-命令行装不上、或 `dsh` 不在 PATH 时用这个。只改**正在用的那个宿主**对应的 profile，不要动另一个，也不要删原有 bundle。
+鍛戒护琛岃涓嶄笂銆佹垨 `dsh` 涓嶅湪 PATH 鏃剁敤杩欎釜銆傚彧鏀?*姝ｅ湪鐢ㄧ殑閭ｄ釜瀹夸富**瀵瑰簲鐨?profile锛屼笉瑕佸姩鍙︿竴涓紝涔熶笉瑕佸垹鍘熸湁 bundle銆?
 
 <details>
-<summary><strong>完整手动步骤</strong></summary>
+<summary><strong>瀹屾暣鎵嬪姩姝ラ</strong></summary>
 
-**1. 找到真正在用的 `$DSH_HOME`。** 认目录：名字是 `.dsh`（官方 EXE 偶见 `dsh-home`），里面有 `profiles`，且至少有一个 `profiles/<名>/package.json`。按顺序找：`DSH_HOME` 环境变量 → 安装根旁边的 `.dsh`（便携包）→ `%USERPROFILE%\.dsh` 或 `~/.dsh` → `%APPDATA%` / `%LOCALAPPDATA%\DeepSeek Harness\dsh-home`。确认：`profiles/web/package.json` 里 `"name"` 是 `dsh-profile-web`（桌面是 `dsh-profile-desktop`）。本机常有两份 `.dsh`，要用你**实际启动**的那个宿主对应的那份。
+**1. 鎵惧埌鐪熸鍦ㄧ敤鐨?`$DSH_HOME`銆?* 璁ょ洰褰曪細鍚嶅瓧鏄?`.dsh`锛堝畼鏂?EXE 鍋惰 `dsh-home`锛夛紝閲岄潰鏈?`profiles`锛屼笖鑷冲皯鏈変竴涓?`profiles/<鍚?/package.json`銆傛寜椤哄簭鎵撅細`DSH_HOME` 鐜鍙橀噺 鈫?瀹夎鏍规梺杈圭殑 `.dsh`锛堜究鎼哄寘锛夆啋 `%USERPROFILE%\.dsh` 鎴?`~/.dsh` 鈫?`%APPDATA%` / `%LOCALAPPDATA%\DeepSeek Harness\dsh-home`銆傜‘璁わ細`profiles/web/package.json` 閲?`"name"` 鏄?`dsh-profile-web`锛堟闈㈡槸 `dsh-profile-desktop`锛夈€傛湰鏈哄父鏈変袱浠?`.dsh`锛岃鐢ㄤ綘**瀹為檯鍚姩**鐨勯偅涓涓诲搴旂殑閭ｄ唤銆?
 
-Windows PowerShell 列候选：
+Windows PowerShell 鍒楀€欓€夛細
 
 ```powershell
 $cands = @()
@@ -271,18 +271,18 @@ $cands += @("$env:APPDATA\DeepSeek Harness\dsh-home", "$env:LOCALAPPDATA\DeepSee
 $cands | Select-Object -Unique | Where-Object { $_ -and (Test-Path (Join-Path $_ "profiles")) }
 ```
 
-**2. 把插件放到 `$DSH_HOME/plugins/dsh-purge`**（目录名必须是 `dsh-purge`，其 `package.json` 里 `"name"` 也必须是 `dsh-purge`）。
+**2. 鎶婃彃浠舵斁鍒?`$DSH_HOME/plugins/dsh-purge`**锛堢洰褰曞悕蹇呴』鏄?`dsh-purge`锛屽叾 `package.json` 閲?`"name"` 涔熷繀椤绘槸 `dsh-purge`锛夈€?
 
 ```sh
 git clone https://github.com/realMisakaMikoto/dsh-purge.git "$DSH_HOME/plugins/dsh-purge"
 ```
 
-没有 git：下载 [dsh-purge-1.2.4.tar.gz](https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz)，解压后把 `dsh-purge-1.2.4` 改名为 `dsh-purge`，整夹放到 `plugins` 下。已有本仓库副本就复制整个目录，不要只拷几个 `.js`。
+娌℃湁 git锛氫笅杞?[dsh-purge-1.2.4.tar.gz](https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz)锛岃В鍘嬪悗鎶?`dsh-purge-1.2.4` 鏀瑰悕涓?`dsh-purge`锛屾暣澶规斁鍒?`plugins` 涓嬨€傚凡鏈夋湰浠撳簱鍓湰灏卞鍒舵暣涓洰褰曪紝涓嶈鍙嫹鍑犱釜 `.js`銆?
 
-**3. 只改对应 profile 的 `package.json`，先备份。** Web → `$DSH_HOME/profiles/web/package.json`；桌面 → `$DSH_HOME/profiles/desktop/package.json`。**只追加两处**，原有依赖和 bundle 全部留着：
+**3. 鍙敼瀵瑰簲 profile 鐨?`package.json`锛屽厛澶囦唤銆?* Web 鈫?`$DSH_HOME/profiles/web/package.json`锛涙闈?鈫?`$DSH_HOME/profiles/desktop/package.json`銆?*鍙拷鍔犱袱澶?*锛屽師鏈変緷璧栧拰 bundle 鍏ㄩ儴鐣欑潃锛?
 
-1. `dependencies` 增加 `"dsh-purge": "file:../../plugins/dsh-purge"`
-2. `dsh.profile.bundles` **末尾**追加 `"dsh-purge"`（已有就不要再加）
+1. `dependencies` 澧炲姞 `"dsh-purge": "file:../../plugins/dsh-purge"`
+2. `dsh.profile.bundles` **鏈熬**杩藉姞 `"dsh-purge"`锛堝凡鏈夊氨涓嶈鍐嶅姞锛?
 
 ```json
 {
@@ -304,32 +304,32 @@ git clone https://github.com/realMisakaMikoto/dsh-purge.git "$DSH_HOME/plugins/d
 }
 ```
 
-JSON 要合法（新增项前面有逗号，最后一项后面没有多余逗号）。`file:../../plugins/dsh-purge` 不要改成绝对路径，`patchReload`、其它插件、版本号都不要动，`"dsh-purge"` 不要写两次。桌面端没有 `dsh-web-app` 就不要硬加。
+JSON 瑕佸悎娉曪紙鏂板椤瑰墠闈㈡湁閫楀彿锛屾渶鍚庝竴椤瑰悗闈㈡病鏈夊浣欓€楀彿锛夈€俙file:../../plugins/dsh-purge` 涓嶈鏀规垚缁濆璺緞锛宍patchReload`銆佸叾瀹冩彃浠躲€佺増鏈彿閮戒笉瑕佸姩锛宍"dsh-purge"` 涓嶈鍐欎袱娆°€傛闈㈢娌℃湁 `dsh-web-app` 灏变笉瑕佺‖鍔犮€?
 
-**4. 只在刚改的那个 profile 目录装依赖**（`cd` 进 profile 目录，不要在仓库根或 `$DSH_HOME` 根）：
+**4. 鍙湪鍒氭敼鐨勯偅涓?profile 鐩綍瑁呬緷璧?*锛坄cd` 杩?profile 鐩綍锛屼笉瑕佸湪浠撳簱鏍规垨 `$DSH_HOME` 鏍癸級锛?
 
 ```sh
-cd "$DSH_HOME/profiles/web"   # 或 profiles/desktop
+cd "$DSH_HOME/profiles/web"   # 鎴?profiles/desktop
 pnpm install
 ```
 
-成功标志：出现 `profiles/<web|desktop>/node_modules/dsh-purge/package.json`。找不到 `pnpm` 就用官方 `dsh` 自带的 Node / pnpm；报 `Could not resolve` 就检查 `file:` 路径；JSON 解析失败就修逗号或还原备份。
+鎴愬姛鏍囧織锛氬嚭鐜?`profiles/<web|desktop>/node_modules/dsh-purge/package.json`銆傛壘涓嶅埌 `pnpm` 灏辩敤瀹樻柟 `dsh` 鑷甫鐨?Node / pnpm锛涙姤 `Could not resolve` 灏辨鏌?`file:` 璺緞锛汮SON 瑙ｆ瀽澶辫触灏变慨閫楀彿鎴栬繕鍘熷浠姐€?
 
-**5. 完全退出该宿主，再启动，再点「应用」** —— 和上面三步一样。按钮会出现在会话标题旁，只在这个宿主点「应用」（或 `/purge apply`）。没出现多半是改错了另一份 `.dsh`，回到第 1 步核对。
+**5. 瀹屽叏閫€鍑鸿瀹夸富锛屽啀鍚姩锛屽啀鐐广€屽簲鐢ㄣ€?* 鈥斺€?鍜屼笂闈笁姝ヤ竴鏍枫€傛寜閽細鍑虹幇鍦ㄤ細璇濇爣棰樻梺锛屽彧鍦ㄨ繖涓涓荤偣銆屽簲鐢ㄣ€嶏紙鎴?`/purge apply`锛夈€傛病鍑虹幇澶氬崐鏄敼閿欎簡鍙︿竴浠?`.dsh`锛屽洖鍒扮 1 姝ユ牳瀵广€?
 
 </details>
 
-### 卸载
+### 鍗歌浇
 
-会话标题旁的 **dsh-purge** →「清洗」→「卸载」。弹窗确认：会先还原已应用的补丁，还原回原版 Harness，再重启当前宿主。
+浼氳瘽鏍囬鏃佺殑 **dsh-purge** 鈫掋€屾竻娲椼€嶁啋銆屽嵏杞姐€嶃€傚脊绐楃‘璁わ細浼氬厛杩樺師宸插簲鐢ㄧ殑琛ヤ竵锛岃繕鍘熷洖鍘熺増 Harness锛屽啀閲嶅惎褰撳墠瀹夸富銆?
 
 ```sh
-# 也可以用命令行 / 聊天
+# 涔熷彲浠ョ敤鍛戒护琛?/ 鑱婂ぉ
 dsh-purge --uninstall
 # /purge uninstall
 ```
 
-插件配置在 `cordis.patch.yml`（`postPrompt` 默认为空）：
+鎻掍欢閰嶇疆鍦?`cordis.patch.yml`锛坄postPrompt` 榛樿涓虹┖锛夛細
 
 ```yaml
 - insert:
@@ -347,59 +347,58 @@ dsh-purge --uninstall
 
 ---
 
-## 界面预览
+## 鐣岄潰棰勮
 
-会话标题旁有 **dsh-purge**。点开是右侧栏，两页：**清洗** 和 **演练台**。白 / 墨可切换。补丁按组展开，进度只计真正已应用的项。规则集在上方列表启用或删除，下方编辑正文。
+浼氳瘽鏍囬鏃佹湁 **dsh-purge**銆傜偣寮€鏄彸渚ф爮锛屼袱椤碉細**娓呮礂** 鍜?**婕旂粌鍙?*銆傜櫧 / 澧ㄥ彲鍒囨崲銆傝ˉ涓佹寜缁勫睍寮€锛岃繘搴﹀彧璁＄湡姝ｅ凡搴旂敤鐨勯」銆傝鍒欓泦鍦ㄤ笂鏂瑰垪琛ㄥ惎鐢ㄦ垨鍒犻櫎锛屼笅鏂圭紪杈戞鏂囥€?
 
-第一次进演练台要先读声明、等倒计时、滚到文末并勾选三项。清洗不需要这一步。演练台只用于你有权管理的本机、离线靶标，或已经书面授权的演练环境。
+绗竴娆¤繘婕旂粌鍙拌鍏堣澹版槑銆佺瓑鍊掕鏃躲€佹粴鍒版枃鏈苟鍕鹃€変笁椤广€傛竻娲椾笉闇€瑕佽繖涓€姝ャ€傛紨缁冨彴鍙敤浜庝綘鏈夋潈绠＄悊鐨勬湰鏈恒€佺绾块澏鏍囷紝鎴栧凡缁忎功闈㈡巿鏉冪殑婕旂粌鐜銆?
 
-**清洗**
+**娓呮礂**
 
-![清洗](docs/preview/dock-clean.png)
+![娓呮礂](docs/preview/dock-clean.png)
 
-**演练台授权**
+**婕旂粌鍙版巿鏉?*
 
-![演练台授权](docs/preview/dock-auth.png)
+![婕旂粌鍙版巿鏉僝(docs/preview/dock-auth.png)
 
-**演练台**
+**婕旂粌鍙?*
 
-![演练台](docs/preview/dock-drill.png)
+![婕旂粌鍙癩(docs/preview/dock-drill.png)
 
-**补丁**
+**琛ヤ竵**
 
-![补丁](docs/preview/settings.png)
+![琛ヤ竵](docs/preview/settings.png)
 
-**规则集**
+**瑙勫垯闆?*
 
-![规则集](docs/preview/rules.png)
+![瑙勫垯闆哴(docs/preview/rules.png)
 
 
-| 区域        | 说明                                                                                                         |
+| 鍖哄煙        | 璇存槑                                                                                                         |
 | --------- | ---------------------------------------------------------------------------------------------------------- |
-| dsh-purge | 会话标题旁的按钮，打开或收起右侧栏                                                                                          |
-| 清洗        | 原来的规则设定：补丁、提示词、规则集、Skill                                                                                   |
-| 演练台       | 授权后的资产、技能与环境页。未授权时按钮标「未授权」                                                                                 |
-| 补丁        | 分组查看状态，应用、还原或卸载                                                                                            |
-| 提示词       | 编辑 `prompt-inject.md`，作为会话覆盖段                                                                              |
-| 规则集       | 多套 `AGENTS.md` / `CLAUDE.md`；启用写入 `$DSH_HOME`，删除从列表去掉                                                      |
-| Skill     | 导入压缩包或文件夹到当前宿主官方目录 `$DSH_HOME/skills/<id>/SKILL.md`（Web / 桌面各用自己的主目录，不写死盘符）；命中、加载、`/名称` 由 DSH 负责。也可自己删该文件夹 |
+| dsh-purge | 浼氳瘽鏍囬鏃佺殑鎸夐挳锛屾墦寮€鎴栨敹璧峰彸渚ф爮                                                                                          |
+| 娓呮礂        | 鍘熸潵鐨勮鍒欒瀹氾細琛ヤ竵銆佹彁绀鸿瘝銆佽鍒欓泦銆丼kill                                                                                   |
+| 婕旂粌鍙?      | 鎺堟潈鍚庣殑璧勪骇銆佹妧鑳戒笌鐜椤点€傛湭鎺堟潈鏃舵寜閽爣銆屾湭鎺堟潈銆?                                                                                |
+| 琛ヤ竵        | 鍒嗙粍鏌ョ湅鐘舵€侊紝搴旂敤銆佽繕鍘熸垨鍗歌浇                                                                                            |
+| 鎻愮ず璇?      | 缂栬緫 `prompt-inject.md`锛屼綔涓轰細璇濊鐩栨                                                                              |
+| 瑙勫垯闆?      | 澶氬 `AGENTS.md` / `CLAUDE.md`锛涘惎鐢ㄥ啓鍏?`$DSH_HOME`锛屽垹闄や粠鍒楄〃鍘绘帀                                                      |
+| Skill     | 瀵煎叆鍘嬬缉鍖呮垨鏂囦欢澶瑰埌褰撳墠瀹夸富瀹樻柟鐩綍 `$DSH_HOME/skills/<id>/SKILL.md`锛圵eb / 妗岄潰鍚勭敤鑷繁鐨勪富鐩綍锛屼笉鍐欐鐩樼锛夛紱鍛戒腑銆佸姞杞姐€乣/鍚嶇О` 鐢?DSH 璐熻矗銆備篃鍙嚜宸卞垹璇ユ枃浠跺す |
 
 
 ---
 
-## 目录结构
+## 鐩綍缁撴瀯
 
-`bin/` 是命令行，`lib/` 是补丁和演练台，`presets/redteam/` 是红队预设，`skills/redteam/` 是随包技能，`client.js` 是侧栏。
+`bin/` 鏄懡浠よ锛宍lib/` 鏄ˉ涓佸拰婕旂粌鍙帮紝`presets/redteam/` 鏄孩闃熼璁撅紝`skills/redteam/` 鏄殢鍖呮妧鑳斤紝`client.js` 鏄晶鏍忋€?
 
-运行时文件在 `$DSH_HOME`：`prompt-inject.md`、`rules/`、`skills/`、`redteam/`。未设 `DSH_HOME` 时，优先用 dsh 安装目录旁边的 `.dsh`，再退回 `~/.dsh`。Web 和桌面端各用自己那一份主目录。Skill 不进注入段，也不顶替提示词。
-
-技术报告：[`docs/technical-report.md`](docs/technical-report.md) —— 安装拓扑、补丁引擎（85 条 / 57 个目标键）、提示词注入子系统、事务与回滚、本机实测数据与已知限制。
-
-维护手册：[`docs/maintaining.md`](docs/maintaining.md) —— 宿主升级后自己补 pattern 的七步流程、五种形状变化与铁律；补丁原文表：[`docs/reference/patch-spec.md`](docs/reference/patch-spec.md)（由 `node scripts/export-patch-table.mjs` 生成，含每条 pattern/replace 全文）。
+杩愯鏃舵枃浠跺湪 `$DSH_HOME`锛歚prompt-inject.md`銆乣rules/`銆乣skills/`銆乣redteam/`銆傛湭璁?`DSH_HOME` 鏃讹紝浼樺厛鐢?dsh 瀹夎鐩綍鏃佽竟鐨?`.dsh`锛屽啀閫€鍥?`~/.dsh`銆俉eb 鍜屾闈㈢鍚勭敤鑷繁閭ｄ竴浠戒富鐩綍銆係kill 涓嶈繘娉ㄥ叆娈碉紝涔熶笉椤舵浛鎻愮ず璇嶃€?
+鎶€鏈姤鍛婏細[`docs/technical-report.md`](docs/technical-report.md) 鈥斺€?瀹夎鎷撴墤銆佽ˉ涓佸紩鎿庯紙85 鏉?/ 57 涓洰鏍囬敭锛夈€佹彁绀鸿瘝娉ㄥ叆瀛愮郴缁熴€佷簨鍔′笌鍥炴粴銆佹湰鏈哄疄娴嬫暟鎹笌宸茬煡闄愬埗銆?
+缁存姢鎵嬪唽锛歔`docs/maintaining.md`](docs/maintaining.md) 鈥斺€?瀹夸富鍗囩骇鍚庤嚜宸辫ˉ pattern 鐨勪竷姝ユ祦绋嬨€佷簲绉嶅舰鐘跺彉鍖栦笌閾佸緥锛涜ˉ涓佸師鏂囪〃锛歔`docs/reference/patch-spec.md`](docs/reference/patch-spec.md)锛堢敱 `node scripts/export-patch-table.mjs` 鐢熸垚锛屽惈姣忔潯 pattern/replace 鍏ㄦ枃锛夈€?
+安装指南：[`docs/install.md`](docs/install.md) —— 为什么 `dsh plugin --profile desktop add` 会被 Electron profile 守卫拒绝，以及三条绕过路径（`node scripts/install.mjs` 为一条命令版，全新装 DSH 后直接用）。
 
 ---
 
-## 使用
+## 浣跨敤
 
 ```sh
 # CLI
@@ -409,27 +408,27 @@ dsh-purge --revert
 dsh-purge --uninstall
 dsh-purge --edit
 
-# 聊天
+# 鑱婂ぉ
 /purge status | apply | revert | uninstall | edit | help
 /rules list | use <id> | create <id> | delete <id> | reset | help
-/skills list | import <压缩包或文件夹> | create <id> [说明] | delete <id> | help
+/skills list | import <鍘嬬缉鍖呮垨鏂囦欢澶? | create <id> [璇存槑] | delete <id> | help
 /rewind
 
-# 模型工具
+# 妯″瀷宸ュ叿
 purge_status   purge_apply   purge_revert
 ```
 
-设置页「应用」成功后会自动重启，以加载已改的包文件；也可手动点「重启」。补丁标题下有正式版和测试版。测试版跟 `beta` 分支。点「切换到正式版」会装回 master，并清掉钉选。正式版里选旧版本会固定在该版本，要回到最新再点「更新」。旧的测试标签不再列出。
+璁剧疆椤点€屽簲鐢ㄣ€嶆垚鍔熷悗浼氳嚜鍔ㄩ噸鍚紝浠ュ姞杞藉凡鏀圭殑鍖呮枃浠讹紱涔熷彲鎵嬪姩鐐广€岄噸鍚€嶃€傝ˉ涓佹爣棰樹笅鏈夋寮忕増鍜屾祴璇曠増銆傛祴璇曠増璺?`beta` 鍒嗘敮銆傜偣銆屽垏鎹㈠埌姝ｅ紡鐗堛€嶄細瑁呭洖 master锛屽苟娓呮帀閽夐€夈€傛寮忕増閲岄€夋棫鐗堟湰浼氬浐瀹氬湪璇ョ増鏈紝瑕佸洖鍒版渶鏂板啀鐐广€屾洿鏂般€嶃€傛棫鐨勬祴璇曟爣绛句笉鍐嶅垪鍑恒€?
 
-输入框旁的「回退一次」和「回退上一轮」跟官方 DSH `session.fork({ atSeq })`：撤回已进行的那一轮，新会话接上之前的上下文，旧会话归档，那句回到输入框，再发送会重新注入。聊天里 `/rewind` 同样可用。
+杈撳叆妗嗘梺鐨勩€屽洖閫€涓€娆°€嶅拰銆屽洖閫€涓婁竴杞€嶈窡瀹樻柟 DSH `session.fork({ atSeq })`锛氭挙鍥炲凡杩涜鐨勯偅涓€杞紝鏂颁細璇濇帴涓婁箣鍓嶇殑涓婁笅鏂囷紝鏃т細璇濆綊妗ｏ紝閭ｅ彞鍥炲埌杈撳叆妗嗭紝鍐嶅彂閫佷細閲嶆柊娉ㄥ叆銆傝亰澶╅噷 `/rewind` 鍚屾牱鍙敤銆?
 
-**极简 / PTC 与标准不一致时**：同一任务在标准模式能跑、在极简或 PTC 被拦，通常是 preset 里 `run_code` 或 plan 拦截句没洗净，或内置 minimal 缺少 `agent-instructions`。请升到 **1.1.61+**，**完全退出宿主 → 清洗里应用 → 自动重启 → 新开一轮对话** 再试；只换 preset 不重应用，旧进程里的补丁不会更新。
+**鏋佺畝 / PTC 涓庢爣鍑嗕笉涓€鑷存椂**锛氬悓涓€浠诲姟鍦ㄦ爣鍑嗘ā寮忚兘璺戙€佸湪鏋佺畝鎴?PTC 琚嫤锛岄€氬父鏄?preset 閲?`run_code` 鎴?plan 鎷︽埅鍙ユ病娲楀噣锛屾垨鍐呯疆 minimal 缂哄皯 `agent-instructions`銆傝鍗囧埌 **1.1.61+**锛?*瀹屽叏閫€鍑哄涓?鈫?娓呮礂閲屽簲鐢?鈫?鑷姩閲嶅惎 鈫?鏂板紑涓€杞璇?* 鍐嶈瘯锛涘彧鎹?preset 涓嶉噸搴旂敤锛屾棫杩涚▼閲岀殑琛ヤ竵涓嶄細鏇存柊銆?
 
-### 响应速度
+### 鍝嶅簲閫熷害
 
-DSH 会按顺序执行同一批中的 Bash 调用。旧版 dsh-purge 把默认前台等待从 60 秒提高到了 10 分钟，一条慢命令会让后续调用一起等待。补丁 #21 现在把带插件标记的旧值恢复为官方的 60 秒。无标记的等待时间和其他自定义值会保留；无标记的 10 分钟无法可靠地区分是插件旧值还是用户设置。
+DSH 浼氭寜椤哄簭鎵ц鍚屼竴鎵逛腑鐨?Bash 璋冪敤銆傛棫鐗?dsh-purge 鎶婇粯璁ゅ墠鍙扮瓑寰呬粠 60 绉掓彁楂樺埌浜?10 鍒嗛挓锛屼竴鏉℃參鍛戒护浼氳鍚庣画璋冪敤涓€璧风瓑寰呫€傝ˉ涓?#21 鐜板湪鎶婂甫鎻掍欢鏍囪鐨勬棫鍊兼仮澶嶄负瀹樻柟鐨?60 绉掋€傛棤鏍囪鐨勭瓑寰呮椂闂村拰鍏朵粬鑷畾涔夊€间細淇濈暀锛涙棤鏍囪鐨?10 鍒嗛挓鏃犳硶鍙潬鍦板尯鍒嗘槸鎻掍欢鏃у€艰繕鏄敤鎴疯缃€?
 
-在 macOS/Linux 的 `dsh web` 中，如需更快返回工具结果，可在 `$DSH_HOME/profiles/web/cordis.patch.yml`（通常是 `~/.dsh/profiles/web/cordis.patch.yml`）添加下面的条目。已有相同 id 时修改原条目，不要重复添加。这个 profile 覆盖层在内置配置之后加载，后续应用插件会保留它。
+鍦?macOS/Linux 鐨?`dsh web` 涓紝濡傞渶鏇村揩杩斿洖宸ュ叿缁撴灉锛屽彲鍦?`$DSH_HOME/profiles/web/cordis.patch.yml`锛堥€氬父鏄?`~/.dsh/profiles/web/cordis.patch.yml`锛夋坊鍔犱笅闈㈢殑鏉＄洰銆傚凡鏈夌浉鍚?id 鏃朵慨鏀瑰師鏉＄洰锛屼笉瑕侀噸澶嶆坊鍔犮€傝繖涓?profile 瑕嗙洊灞傚湪鍐呯疆閰嶇疆涔嬪悗鍔犺浇锛屽悗缁簲鐢ㄦ彃浠朵細淇濈暀瀹冦€?
 
 ```yaml
 - id: bash-sandbox
@@ -437,9 +436,9 @@ DSH 会按顺序执行同一批中的 Bash 调用。旧版 dsh-purge 把默认�
     timeoutMs: 10000
 ```
 
-使用标准 jobs 服务且 `promoteOnTimeout: true` 时，未完成的命令会在 10 秒后返回后台任务 id，并继续运行。用 `job_output` 读取结果、用 `job_kill` 停止。这个设置缩短前台等待，不会让命令本身跑得更快。没有 jobs 服务或关闭自动转后台时，超时会终止命令。单次调用传入的 `timeoutMs` 优先于这里的默认值；`run_in_background: true` 可立即返回任务 id。
+浣跨敤鏍囧噯 jobs 鏈嶅姟涓?`promoteOnTimeout: true` 鏃讹紝鏈畬鎴愮殑鍛戒护浼氬湪 10 绉掑悗杩斿洖鍚庡彴浠诲姟 id锛屽苟缁х画杩愯銆傜敤 `job_output` 璇诲彇缁撴灉銆佺敤 `job_kill` 鍋滄銆傝繖涓缃缉鐭墠鍙扮瓑寰咃紝涓嶄細璁╁懡浠ゆ湰韬窇寰楁洿蹇€傛病鏈?jobs 鏈嶅姟鎴栧叧闂嚜鍔ㄨ浆鍚庡彴鏃讹紝瓒呮椂浼氱粓姝㈠懡浠ゃ€傚崟娆¤皟鐢ㄤ紶鍏ョ殑 `timeoutMs` 浼樺厛浜庤繖閲岀殑榛樿鍊硷紱`run_in_background: true` 鍙珛鍗宠繑鍥炰换鍔?id銆?
 
-日常任务还可以选择让新会话默认使用 Low 推理：
+鏃ュ父浠诲姟杩樺彲浠ラ€夋嫨璁╂柊浼氳瘽榛樿浣跨敤 Low 鎺ㄧ悊锛?
 
 ```yaml
 - id: agent-default-model
@@ -449,15 +448,15 @@ DSH 会按顺序执行同一批中的 Bash 调用。旧版 dsh-purge 把默认�
     reasoningEffort: low
 ```
 
-重启 `dsh web` 后加载配置。模型和推理等级默认值只用于新建会话，已有会话请在输入框中选择 Low。插件不会自动修改这些模型偏好。需要深入推理的任务可保留 High；搜索文件时应限定目录，避免递归扫描所有应用目录。
+閲嶅惎 `dsh web` 鍚庡姞杞介厤缃€傛ā鍨嬪拰鎺ㄧ悊绛夌骇榛樿鍊煎彧鐢ㄤ簬鏂板缓浼氳瘽锛屽凡鏈変細璇濊鍦ㄨ緭鍏ユ涓€夋嫨 Low銆傛彃浠朵笉浼氳嚜鍔ㄤ慨鏀硅繖浜涙ā鍨嬪亸濂姐€傞渶瑕佹繁鍏ユ帹鐞嗙殑浠诲姟鍙繚鐣?High锛涙悳绱㈡枃浠舵椂搴旈檺瀹氱洰褰曪紝閬垮厤閫掑綊鎵弿鎵€鏈夊簲鐢ㄧ洰褰曘€?
 
-### 目标范围
+### 鐩爣鑼冨洿
 
-本社区构建不再按地区、行业或自有服务器名单限制红队目标。旧的「自己的服务器」设置和接口已移除。已有的 `net-scope-allow.txt` 文件保留原样，不再读取。
+鏈ぞ鍖烘瀯寤轰笉鍐嶆寜鍦板尯銆佽涓氭垨鑷湁鏈嶅姟鍣ㄥ悕鍗曢檺鍒剁孩闃熺洰鏍囥€傛棫鐨勩€岃嚜宸辩殑鏈嶅姟鍣ㄣ€嶈缃拰鎺ュ彛宸茬Щ闄ゃ€傚凡鏈夌殑 `net-scope-allow.txt` 鏂囦欢淇濈暀鍘熸牱锛屼笉鍐嶈鍙栥€?
 
 ---
 
-## 本地校验
+## 鏈湴鏍￠獙
 
 ```sh
 node --check lib/index.js
@@ -469,53 +468,53 @@ node --check client.js
 
 ---
 
-## 工作原理
+## 宸ヤ綔鍘熺悊
 
-应用，启动时或手动点「应用」：
+搴旂敤锛屽惎鍔ㄦ椂鎴栨墜鍔ㄧ偣銆屽簲鐢ㄣ€嶏細
 
 ```mermaid
 flowchart TD
-  A["启动或点应用"] --> B{"补丁已经生效?"}
-  B -->|是| C["跳过"]
-  B -->|否| D["备份原件为 .dshpurge.bak"]
-  D --> E["按补丁列表替换对应文件"]
-  E --> F["覆盖 shim"]
-  F --> G["注入插件加密默认（提示词框默认显示的那份）"]
+  A["鍚姩鎴栫偣搴旂敤"] --> B{"琛ヤ竵宸茬粡鐢熸晥?"}
+  B -->|鏄瘄 C["璺宠繃"]
+  B -->|鍚 D["澶囦唤鍘熶欢涓?.dshpurge.bak"]
+  D --> E["鎸夎ˉ涓佸垪琛ㄦ浛鎹㈠搴旀枃浠?]
+  E --> F["瑕嗙洊 shim"]
+  F --> G["娉ㄥ叆鎻掍欢鍔犲瘑榛樿锛堟彁绀鸿瘝妗嗛粯璁ゆ樉绀虹殑閭ｄ唤锛?]
 ```
 
 
 
-每次会话的覆盖：
+姣忔浼氳瘽鐨勮鐩栵細
 
 ```mermaid
 flowchart TD
-  A["重启或新会话"] --> B["注入插件加密默认，不必点保存，不读宿主磁盘"]
+  A["閲嶅惎鎴栨柊浼氳瘽"] --> B["娉ㄥ叆鎻掍欢鍔犲瘑榛樿锛屼笉蹇呯偣淇濆瓨锛屼笉璇诲涓荤鐩?]
 ```
 
 
 
-每一轮的提示词注入与规则集决策。左边三个输入就是你在 dsh-purge 面板里控制的东西，虚线表示它们各自驱动哪一步判定：
+姣忎竴杞殑鎻愮ず璇嶆敞鍏ヤ笌瑙勫垯闆嗗喅绛栥€傚乏杈逛笁涓緭鍏ュ氨鏄綘鍦?dsh-purge 闈㈡澘閲屾帶鍒剁殑涓滆タ锛岃櫄绾胯〃绀哄畠浠悇鑷┍鍔ㄥ摢涓€姝ュ垽瀹氾細
 
 ```mermaid
 flowchart TD
-  L["规则库：启用某个规则集 → 写入 prompt-inject.md"]
-  W["本地规则：勾选当前目录的 AGENTS.md / CLAUDE.md"]
-  P["工作区策略：strict / fallback / always"]
+  L["瑙勫垯搴擄細鍚敤鏌愪釜瑙勫垯闆?鈫?鍐欏叆 prompt-inject.md"]
+  W["鏈湴瑙勫垯锛氬嬀閫夊綋鍓嶇洰褰曠殑 AGENTS.md / CLAUDE.md"]
+  P["宸ヤ綔鍖虹瓥鐣ワ細strict / fallback / always"]
 
-  A["新一轮开始"] --> B{"prompt-inject.md 非空?"}
-  B -->|是| C["注入 = prompt-inject.md (A)"]
-  B -->|否| D{"当前目录有被勾选且非空的本地 md?"}
-  D -->|是| E["注入 = 被勾选的 workspace md (B)"]
-  D -->|否| F["注入 = 插件加密 slot 默认值 (D)"]
-  C --> G{"Workspace baseline 策略 (C)"}
+  A["鏂颁竴杞紑濮?] --> B{"prompt-inject.md 闈炵┖?"}
+  B -->|鏄瘄 C["娉ㄥ叆 = prompt-inject.md (A)"]
+  B -->|鍚 D{"褰撳墠鐩綍鏈夎鍕鹃€変笖闈炵┖鐨勬湰鍦?md?"}
+  D -->|鏄瘄 E["娉ㄥ叆 = 琚嬀閫夌殑 workspace md (B)"]
+  D -->|鍚 F["娉ㄥ叆 = 鎻掍欢鍔犲瘑 slot 榛樿鍊?(D)"]
+  C --> G{"Workspace baseline 绛栫暐 (C)"}
   E --> G
   F --> G
-  G -->|strict| H["去掉 DSH workspace baseline 段"]
-  G -->|fallback 默认| I{"上面有用户注入内容? (A 或 B)"}
-  G -->|always| J["保留 DSH workspace baseline 段"]
-  I -->|是| H
-  I -->|否| J
-  H --> K["最终系统提示词"]
+  G -->|strict| H["鍘绘帀 DSH workspace baseline 娈?]
+  G -->|fallback 榛樿| I{"涓婇潰鏈夌敤鎴锋敞鍏ュ唴瀹? (A 鎴?B)"}
+  G -->|always| J["淇濈暀 DSH workspace baseline 娈?]
+  I -->|鏄瘄 H
+  I -->|鍚 J
+  H --> K["鏈€缁堢郴缁熸彁绀鸿瘝"]
   J --> K
 
   L -.-> B
@@ -525,63 +524,63 @@ flowchart TD
 
 
 
-Skill 不进注入段：
+Skill 涓嶈繘娉ㄥ叆娈碉細
 
 ```mermaid
 flowchart LR
-  A["设置页导入或 /skills import"] --> B["写到官方 skills 目录"]
-  B --> C["由 DSH 加载"]
-  C --> D["卸载插件不删用户 Skill"]
+  A["璁剧疆椤靛鍏ユ垨 /skills import"] --> B["鍐欏埌瀹樻柟 skills 鐩綍"]
+  B --> C["鐢?DSH 鍔犺浇"]
+  C --> D["鍗歌浇鎻掍欢涓嶅垹鐢ㄦ埛 Skill"]
 ```
 
 
 
 ---
 
-## 还原
+## 杩樺師
 
-- 每个目标文件在应用前备份为 `<文件>.dshpurge.bak`。
-- 「还原」或 `/purge revert` 用备份覆盖回去并删除备份；没有备份时去掉 shim 里由本插件写入的行。
-- `prompt-inject.md` 是用户文件，还原时保留。
-- 「卸载」会先还原（若已应用），再删除注入文件、规则库和插件本身。
-- 重复应用是幂等的。
+- 姣忎釜鐩爣鏂囦欢鍦ㄥ簲鐢ㄥ墠澶囦唤涓?`<鏂囦欢>.dshpurge.bak`銆?
+- 銆岃繕鍘熴€嶆垨 `/purge revert` 鐢ㄥ浠借鐩栧洖鍘诲苟鍒犻櫎澶囦唤锛涙病鏈夊浠芥椂鍘绘帀 shim 閲岀敱鏈彃浠跺啓鍏ョ殑琛屻€?
+- `prompt-inject.md` 鏄敤鎴锋枃浠讹紝杩樺師鏃朵繚鐣欍€?
+- 銆屽嵏杞姐€嶄細鍏堣繕鍘燂紙鑻ュ凡搴旂敤锛夛紝鍐嶅垹闄ゆ敞鍏ユ枃浠躲€佽鍒欏簱鍜屾彃浠舵湰韬€?
+- 閲嶅搴旂敤鏄箓绛夌殑銆?
 
 ---
 
-## 路径探测
+## 璺緞鎺㈡祴
 
-宿主面先判断 `web` / `desktop`（预留 `gui` / `tui`，尚未单独适配时回退 web）。
+瀹夸富闈㈠厛鍒ゆ柇 `web` / `desktop`锛堥鐣?`gui` / `tui`锛屽皻鏈崟鐙€傞厤鏃跺洖閫€ web锛夈€?
 
-**Web：**
+**Web锛?*
 
 1. `DSH_HOME` / `DSH_BASE`
-2. dsh 启动器旁的 `.dsh`
+2. dsh 鍚姩鍣ㄦ梺鐨?`.dsh`
 3. `npm prefix -g` / `npm root -g`
-4. 嵌套 `@deepseek-ai/dsh/node_modules/@deepseek-ai`
-5. 系统默认 `~/.dsh`
+4. 宓屽 `@deepseek-ai/dsh/node_modules/@deepseek-ai`
+5. 绯荤粺榛樿 `~/.dsh`
 
-**官方桌面：** 只改当前正在运行的官方桌面安装。点「应用」成功后会自动重启一次。社区桌面端不维护。
+**瀹樻柟妗岄潰锛?* 鍙敼褰撳墠姝ｅ湪杩愯鐨勫畼鏂规闈㈠畨瑁呫€傜偣銆屽簲鐢ㄣ€嶆垚鍔熷悗浼氳嚜鍔ㄩ噸鍚竴娆°€傜ぞ鍖烘闈㈢涓嶇淮鎶ゃ€?
 
-找不到目标时提示设置 `DSH_BASE`，不改文件。
-
----
-
-## 更新
-
-每一版改了什么、安装包在 [Releases](https://github.com/realMisakaMikoto/dsh-purge/releases)。发新版时把 `package.json` 的版本号改掉，中英文说明写进 `release-notes.md`，推到 `master` 就会自动打包。同一版本再推送不会重复发包。
-
-## 说明
-
-- 改动范围是本机 `@deepseek-ai/*` 包里的渲染文案、默认策略和执行逻辑，以及用户目录下的覆盖文件与规则集。
-- 升级后原文对不上会显示跳过，这次应用仍算完成，不会乱改。
-- 不改动非 `@deepseek-ai` 的第三方插件源仓库（启动时的 CMD 无感会**尽力**修补已装的 doctor / market / 梁神 / mnemon，属运行时补丁）。
-- 安装本 fork：`dsh plugin --profile web add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz`（`--profile desktop` 同理）。当前目录已是本仓库时用 `add .`。
+鎵句笉鍒扮洰鏍囨椂鎻愮ず璁剧疆 `DSH_BASE`锛屼笉鏀规枃浠躲€?
 
 ---
 
-感谢 [LINUX DO](https://linux.do) 社区
+## 鏇存柊
 
-## 命令行状态与体检
+姣忎竴鐗堟敼浜嗕粈涔堛€佸畨瑁呭寘鍦?[Releases](https://github.com/realMisakaMikoto/dsh-purge/releases)銆傚彂鏂扮増鏃舵妸 `package.json` 鐨勭増鏈彿鏀规帀锛屼腑鑻辨枃璇存槑鍐欒繘 `release-notes.md`锛屾帹鍒?`master` 灏变細鑷姩鎵撳寘銆傚悓涓€鐗堟湰鍐嶆帹閫佷笉浼氶噸澶嶅彂鍖呫€?
+
+## 璇存槑
+
+- 鏀瑰姩鑼冨洿鏄湰鏈?`@deepseek-ai/*` 鍖呴噷鐨勬覆鏌撴枃妗堛€侀粯璁ょ瓥鐣ュ拰鎵ц閫昏緫锛屼互鍙婄敤鎴风洰褰曚笅鐨勮鐩栨枃浠朵笌瑙勫垯闆嗐€?
+- 鍗囩骇鍚庡師鏂囧涓嶄笂浼氭樉绀鸿烦杩囷紝杩欐搴旂敤浠嶇畻瀹屾垚锛屼笉浼氫贡鏀广€?
+- 涓嶆敼鍔ㄩ潪 `@deepseek-ai` 鐨勭涓夋柟鎻掍欢婧愪粨搴擄紙鍚姩鏃剁殑 CMD 鏃犳劅浼?*灏藉姏**淇ˉ宸茶鐨?doctor / market / 姊佺 / mnemon锛屽睘杩愯鏃惰ˉ涓侊級銆?
+- 瀹夎鏈?fork锛歚dsh plugin --profile web add https://github.com/realMisakaMikoto/dsh-purge/releases/download/v1.2.4/dsh-purge-1.2.4.tar.gz`锛坄--profile desktop` 鍚岀悊锛夈€傚綋鍓嶇洰褰曞凡鏄湰浠撳簱鏃剁敤 `add .`銆?
+
+---
+
+鎰熻阿 [LINUX DO](https://linux.do) 绀惧尯
+
+## 鍛戒护琛岀姸鎬佷笌浣撴
 
 ```sh
 node bin/dsh-purge.js --status --json
@@ -592,13 +591,13 @@ node bin/dsh-purge.js --doctor --save-baseline
 node bin/dsh-purge.js --doctor --repo /path/to/linked/checkout --json
 ```
 
-状态会列出各份安装；只有未指定平台或目录时，才优先选择实际运行的桌面宿主。桌面检查包含归档和补丁生效状态。
+鐘舵€佷細鍒楀嚭鍚勪唤瀹夎锛涘彧鏈夋湭鎸囧畾骞冲彴鎴栫洰褰曟椂锛屾墠浼樺厛閫夋嫨瀹為檯杩愯鐨勬闈㈠涓汇€傛闈㈡鏌ュ寘鍚綊妗ｅ拰琛ヤ竵鐢熸晥鐘舵€併€?
 
-doctor 全部检查通过时退出码为 0，否则为 1。只有健康状态可以保存基线，并记录宿主路径以避免混用不同安装的基线。`--repo` 用于链接到工作副本的开发安装；包缺失、链接失效或独立复制目录都不会通过该检查。
+doctor 鍏ㄩ儴妫€鏌ラ€氳繃鏃堕€€鍑虹爜涓?0锛屽惁鍒欎负 1銆傚彧鏈夊仴搴风姸鎬佸彲浠ヤ繚瀛樺熀绾匡紝骞惰褰曞涓昏矾寰勪互閬垮厤娣风敤涓嶅悓瀹夎鐨勫熀绾裤€俙--repo` 鐢ㄤ簬閾炬帴鍒板伐浣滃壇鏈殑寮€鍙戝畨瑁咃紱鍖呯己澶便€侀摼鎺ュけ鏁堟垨鐙珛澶嶅埗鐩綍閮戒笉浼氶€氳繃璇ユ鏌ャ€?
 
-`--json` 仅支持状态和体检命令。与应用、还原、编辑或卸载操作组合时会报错，不执行该操作。
+`--json` 浠呮敮鎸佺姸鎬佸拰浣撴鍛戒护銆備笌搴旂敤銆佽繕鍘熴€佺紪杈戞垨鍗歌浇鎿嶄綔缁勫悎鏃朵細鎶ラ敊锛屼笉鎵ц璇ユ搷浣溿€?
 
 
-## 可恢复更新（1.1.76）
+## 鍙仮澶嶆洿鏂帮紙1.1.76锛?
 
-正式通道仅跟随附件完整的已发布 Release，每次固定同一提交；测试通道继续跟随 beta。更新先备份文件，包含 skills/scripts，新宿主验证生效后才提交版本状态。Git 本地有修改时停止更新。保留最近两份已验证的旧版备份，异常或带链接的备份保留并报告。启动失败按记录恢复文件，最多重启恢复一次。更新器不递归清理宿主或 runtime 目录。状态包含操作编号、阶段、验证和恢复结果。需要 Node >=22.13.0 及可用的 node:sqlite。
+姝ｅ紡閫氶亾浠呰窡闅忛檮浠跺畬鏁寸殑宸插彂甯?Release锛屾瘡娆″浐瀹氬悓涓€鎻愪氦锛涙祴璇曢€氶亾缁х画璺熼殢 beta銆傛洿鏂板厛澶囦唤鏂囦欢锛屽寘鍚?skills/scripts锛屾柊瀹夸富楠岃瘉鐢熸晥鍚庢墠鎻愪氦鐗堟湰鐘舵€併€侴it 鏈湴鏈変慨鏀规椂鍋滄鏇存柊銆備繚鐣欐渶杩戜袱浠藉凡楠岃瘉鐨勬棫鐗堝浠斤紝寮傚父鎴栧甫閾炬帴鐨勫浠戒繚鐣欏苟鎶ュ憡銆傚惎鍔ㄥけ璐ユ寜璁板綍鎭㈠鏂囦欢锛屾渶澶氶噸鍚仮澶嶄竴娆°€傛洿鏂板櫒涓嶉€掑綊娓呯悊瀹夸富鎴?runtime 鐩綍銆傜姸鎬佸寘鍚搷浣滅紪鍙枫€侀樁娈点€侀獙璇佸拰鎭㈠缁撴灉銆傞渶瑕?Node >=22.13.0 鍙婂彲鐢ㄧ殑 node:sqlite銆?
