@@ -393,6 +393,10 @@ dsh-purge --uninstall
 
 运行时文件在 `$DSH_HOME`：`prompt-inject.md`、`rules/`、`skills/`、`redteam/`。未设 `DSH_HOME` 时，优先用 dsh 安装目录旁边的 `.dsh`，再退回 `~/.dsh`。Web 和桌面端各用自己那一份主目录。Skill 不进注入段，也不顶替提示词。
 
+技术报告：[`docs/technical-report.md`](docs/technical-report.md) —— 安装拓扑、补丁引擎（85 条 / 57 个目标键）、提示词注入子系统、事务与回滚、本机实测数据与已知限制。
+
+维护手册：[`docs/maintaining.md`](docs/maintaining.md) —— 宿主升级后自己补 pattern 的七步流程、五种形状变化与铁律；补丁原文表：[`docs/reference/patch-spec.md`](docs/reference/patch-spec.md)（由 `node scripts/export-patch-table.mjs` 生成，含每条 pattern/replace 全文）。
+
 ---
 
 ## 使用
